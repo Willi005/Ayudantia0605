@@ -1,13 +1,12 @@
-package com.EjercicioAyudantia.ISoft.model;
+package com.EjercicioAyudantia.ISoft.dto;
 
 import java.time.LocalDate;
 
 import lombok.Data;
+
 @Data
-public class Tarea {
-    private long id;
+public class RequestTaskDTO {
     private String titulo;
     private String prioridad;
     private LocalDate fechaLimite;
-    private boolean completada=false;
 }
